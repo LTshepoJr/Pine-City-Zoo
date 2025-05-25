@@ -4,6 +4,7 @@ html {
   margin: 0;
   background: var(--snow);
   color: var(--charcoal);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 :root {
@@ -20,9 +21,7 @@ html {
 
 #head-images {
   background-image: url("/AppAcademyWeek3-main/images/wood-bg.png");
-  background-size: auto;
   padding-bottom: 1.6em;
-  position: relative;
 }
 
 #head-images img {
@@ -30,20 +29,37 @@ html {
   margin: 0 auto;
   display: block;
 }
+
 #head-nav {
   background: var(--dark-green);
   display: flex;
   justify-content: space-around;
 }
-#head-nav a {
+
+#head-nav a,
+#footer-nav a {
   text-decoration: none;
   color: var(--snow);
-  padding: 0.5em 0.7em;
   font-size: 1.4em;
   padding: 0.6em 2.4em;
   transition: all 0.2s ease-out;
+  text-transform: uppercase;
 }
 
 #head-nav a:hover {
   background: var(--forest-green);
+}
+
+#img-body img {
+  width: 100%;
+}
+
+#footer-nav {
+  background: var(--forest-green);
+  display: flex;
+  justify-content: space-around;
+}
+
+#footer-nav a:hover {
+  background: var(--dark-green);
 }
