@@ -19,8 +19,17 @@ html {
   --forest-green: #228b22;
 }
 
+#heading {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+}
+
 #head-images {
   background-image: url("/AppAcademyWeek3-main/images/wood-bg.png");
+  background-repeat: repeat-x;
+  background-size: contain;
   padding-bottom: 1.6em;
 }
 
@@ -58,6 +67,10 @@ html {
   background: var(--forest-green);
   display: flex;
   justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 100;
 }
 
 #footer-nav a:hover {
