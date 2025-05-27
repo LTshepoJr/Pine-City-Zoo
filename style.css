@@ -10,8 +10,8 @@ html {
 :root {
   --gunmetal: #1f313bff;
   --rose-taupe: #84594bff;
-  --liver: #65463aff;
-  --eggshell: #eae3d0ff;
+  --liver: #572800;
+  --eggshell: #ffffff80;
   --beaver: #b68d7aff;
   --charcoal: #333333;
   --snow: #fafafa;
@@ -59,7 +59,8 @@ html {
   background: var(--forest-green);
 }
 
-#img-body img {
+#img-body img,
+#img-body-blur {
   margin-top: 10.6em;
   width: 100%;
 }
@@ -76,4 +77,38 @@ html {
 
 #footer-nav a:hover {
   background: var(--dark-green);
+}
+
+#img-body-blur {
+  background-image: url("/images/map-blur.png");
+  background-size: contain;
+}
+
+.animal-container {
+  display: flex;
+  justify-content: space-between;
+  background: var(--eggshell);
+  margin: 3em 5em;
+  padding: 1em 1.3em;
+  border-radius: 1.6em;
+}
+
+.animal-container > img {
+  width: 2.5em;
+  height: 4em;
+  padding-top: 1.4em;
+}
+
+#animal {
+  display: flex;
+}
+
+#animal img {
+  padding-right: 1em;
+  width: 100px;
+}
+
+#animal h3 {
+  color: var(--liver);
+  text-transform: uppercase;
 }
