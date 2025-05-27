@@ -120,3 +120,41 @@ html {
   color: var(--liver);
   text-transform: uppercase;
 }
+
+#weather-heading {
+  padding: 2em 1em;
+  background-color: var(--eggshell);
+  margin: 5em 1em;
+}
+
+#weather-heading h1 {
+  text-align: center;
+}
+
+#current {
+  display: flex;
+}
+
+#weather-heading > p {
+  font-size: 5em;
+  margin: 0;
+}
+
+#weather-heading h2,
+h1 {
+  text-transform: uppercase;
+}
+
+#current img {
+  padding-right: 1em;
+}
+
+#degrees-background {
+  background-color: gray;
+  color: black;
+  width: 4.4em;
+}
+
+#current > div {
+  font-size: large;
+}
