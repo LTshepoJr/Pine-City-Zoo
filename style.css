@@ -93,6 +93,12 @@ html {
   border-radius: 1.6em;
   text-decoration: none;
   color: var(--charcoal);
+  transition: all 0.3s ease;
+}
+
+.animal-container:hover {
+  background: var(--charcoal);
+  color: var(--eggshell);
 }
 
 .animal-container > img {
