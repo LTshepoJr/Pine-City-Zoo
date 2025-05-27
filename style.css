@@ -27,7 +27,7 @@ html {
 }
 
 #head-images {
-  background-image: url("/AppAcademyWeek3-main/images/wood-bg.png");
+  background-image: url("images/wood-bg.png");
   background-repeat: repeat-x;
   background-size: contain;
   padding-bottom: 1.6em;
@@ -60,7 +60,7 @@ html {
 }
 
 #img-body img {
-  margin-top: 10em;
+  margin-top: 10.6em;
   width: 100%;
 }
 
