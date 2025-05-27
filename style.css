@@ -121,32 +121,35 @@ html {
   text-transform: uppercase;
 }
 
-#weather-heading {
-  padding: 2em 1em;
-  background-color: var(--eggshell);
-  margin: 5em 1em;
+#weather {
+  background: var(--eggshell);
+  padding: 0em 1em;
+  padding-bottom: 5em;
+  padding-top: 2em;
+  margin: 0 1em;
 }
 
-#weather-heading h1 {
+#weather h1 {
   text-align: center;
+}
+
+#weather h1,
+h2 {
+  text-transform: uppercase;
+}
+
+#weather > p {
+  font-size: 5em;
+  margin: 0.2em 0;
 }
 
 #current {
   display: flex;
 }
 
-#weather-heading > p {
-  font-size: 5em;
-  margin: 0;
-}
-
-#weather-heading h2,
-h1 {
-  text-transform: uppercase;
-}
-
 #current img {
   padding-right: 1em;
+  width: 6em;
 }
 
 #degrees-background {
