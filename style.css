@@ -99,16 +99,16 @@ html {
   padding-top: 1.4em;
 }
 
-#animal {
+.animal {
   display: flex;
 }
 
-#animal img {
+.animal img {
   padding-right: 1em;
   width: 100px;
 }
 
-#animal h3 {
+.animal h3 {
   color: var(--liver);
   text-transform: uppercase;
 }
