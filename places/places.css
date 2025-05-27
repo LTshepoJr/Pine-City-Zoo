@@ -1,0 +1,31 @@
+:root {
+  --gunmetal: #1f313bff;
+  --rose-taupe: #84594bff;
+  --liver: #572800;
+  --eggshell: #ffffff80;
+  --beaver: #b68d7aff;
+  --charcoal: #333333;
+  --snow: #fafafa;
+  --dark-green: #006400;
+  --forest-green: #228b22;
+}
+
+#section {
+  background-color: var(--eggshell);
+  margin: 0 2.2em;
+  padding: 5em 1.4em;
+  text-align: center;
+}
+
+#section img {
+  width: 30em;
+}
+
+#section h1,
+h2 {
+  text-decoration: underline;
+}
+
+ol {
+  list-style: none;
+}
