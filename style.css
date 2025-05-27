@@ -81,7 +81,7 @@ html {
 
 #img-body-blur {
   background-image: url("/images/map-blur.png");
-  background-size: contain;
+  background-size: cover;
 }
 
 .animal-container {
