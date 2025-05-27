@@ -13,8 +13,12 @@
 #section {
   background-color: var(--eggshell);
   margin: 0 2.2em;
-  padding: 3em 1.4em;
+  padding: 5em 1.4em;
   text-align: center;
+}
+
+#section img {
+  width: 30em;
 }
 
 #section h1,
