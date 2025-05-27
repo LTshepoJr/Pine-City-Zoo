@@ -193,3 +193,57 @@ table {
 .night-degrees::before {
   content: "↓";
 }
+
+#feedback {
+  background: var(--eggshell);
+  margin: 0 1em;
+  padding: 5em 1em;
+  text-align: center;
+}
+
+#feedback img {
+  width: 33em;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+}
+
+#form * {
+  margin: 0.3em 0;
+}
+
+#form input,
+textarea {
+  font-size: 1em;
+  height: 3em;
+  border-radius: 1em;
+  text-align: center;
+  width: 100%;
+}
+
+#form textarea {
+  font-size: 1.4em;
+  height: 4em;
+}
+
+#form a {
+  width: 20em;
+  margin: 0 auto;
+  background: var(--dark-green);
+  padding: 1.1em 5em;
+  color: var(--snow);
+  font-size: 1em;
+  text-transform: uppercase;
+  border-radius: 1em;
+  margin-top: 1em;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+#form a:hover {
+  border: 2px solid black;
+  background: var(--forest-green);
+  cursor: pointer;
+}
