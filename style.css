@@ -123,6 +123,11 @@ html {
 .animal h3 {
   color: var(--liver);
   text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.animal h3:hover {
+  color: var(--beaver);
 }
 
 #weather {
