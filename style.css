@@ -19,6 +19,8 @@ html {
   --forest-green: #228b22;
 }
 
+/***************** index.html *******************/
+
 #heading {
   position: fixed;
   top: 0;
@@ -78,6 +80,8 @@ html {
 #footer-nav a:hover {
   background: var(--dark-green);
 }
+
+/***************** .html *******************/
 
 #img-body-blur {
   background-image: url("/images/map-blur.png");
