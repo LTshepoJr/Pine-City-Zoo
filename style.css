@@ -105,6 +105,10 @@ html {
   color: var(--eggshell);
 }
 
+.animal-container:hover > .animal h3 {
+  color: var(--beaver);
+}
+
 .animal-container > img {
   width: 2.5em;
   height: 4em;
@@ -123,11 +127,6 @@ html {
 .animal h3 {
   color: var(--liver);
   text-transform: uppercase;
-  transition: all 0.3s ease;
-}
-
-.animal h3:hover {
-  color: var(--beaver);
 }
 
 #weather {
